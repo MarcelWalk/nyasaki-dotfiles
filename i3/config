@@ -204,9 +204,19 @@ bindsym Mod1+r mode "resize"
 # Please remove the following exec line:
 #######################################################################
 
+#Set keyboard layout
 exec setxkbmap -layout de
+
+#Set display order (arandr)
+exec ~/.screenlayout/main.sh
+
+#Load compton + config
 exec /usr/bin/compton --config ~/.config/compton/config.conf
+
+#Set wallpaper
 exec feh --bg-fill ./wallpaper.png
+
+#Launch polybar
 exec ~/.config/polybar/launch.sh
 
 for_window [class="^.*"] border pixel 1
