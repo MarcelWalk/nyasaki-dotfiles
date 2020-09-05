@@ -1,0 +1,12 @@
+#!/bin/bash
+scrot /tmp/current.png
+convert -blur 0x4 -brightness-contrast -30x0 /tmp/current.png /tmp/lock.png 
+#/tmp/blur.png
+#composite -gravity southeast ./overlay.png /tmp/blur.png /tmp/lock.png
+
+i3lock \
+-k \
+-u \
+--timecolor=#ebcca9ff \
+--datecolor=#ebcca9ff \
+-i /tmp/lock.png
