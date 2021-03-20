@@ -175,7 +175,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec /usr/bin/picom --config ~/.config/picom/config.conf
+exec /usr/bin/picom --experimental-backends
 exec feh --bg-fill ./wallpaper.jpg
 exec ~/.config/polybar/launch.sh
 

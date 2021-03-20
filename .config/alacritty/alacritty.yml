@@ -3,6 +3,8 @@ window:
     x: 20
     y: 20
 
+background_opacity: 0.5
+
 colors:
   # Default colors
   primary:
@@ -34,6 +36,4 @@ colors:
 
 # Font configuration
 font:
-  normal:
-    family: Inconsolata Nerd Font
   size: 14.0
