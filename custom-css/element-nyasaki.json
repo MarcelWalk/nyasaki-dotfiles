@@ -2,11 +2,11 @@
     "name": "Selenized dark theme",
     "is_dark": true,
     "colors": {
-        "accent-color": "#152126",
+        "accent-color": "#273c45",
         "primary-color": "#152126",
         "warning-color": "#fa5750",
 
-        "sidebar-color": "#152126",
+        "sidebar-color": "#273c45",
         "roomlist-background-color": "#152126",
         "roomlist-text-color": "#9fb0b5",
         "roomlist-text-secondary-color": "#9fb0b5",
