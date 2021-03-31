@@ -2,20 +2,20 @@
     "name": "Nyasaki Theme",
     "is_dark": true,
     "colors": {
-        "accent-color": "#2c313c",
+        "accent-color": "#2c3954",
         "primary-color": "#141A26",
         "warning-color": "#fa5750",
 
         "sidebar-color": "#141A26",
         "roomlist-background-color": "#141A26",
         "roomlist-text-color": "#9fb0b5",
-        "roomlist-text-secondary-color": "#2c313c",
+        "roomlist-text-secondary-color": "#2c3954",
         "roomlist-highlights-color": "#141A26",
         "roomlist-separator-color": "#141A26",
 
         "timeline-background-color": "#141A26",
         "timeline-text-color": "#9fb0b5",
-        "timeline-text-secondary-color": "#2c313c",
+        "timeline-text-secondary-color": "#2c3954",
         "timeline-highlights-color": "#141A26",
         "reaction-row-button-selected-bg-color": "#141A26"
     }
