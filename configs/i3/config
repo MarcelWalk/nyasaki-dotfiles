@@ -175,6 +175,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+bar {
+  colors {
+    background #2C3444
+  }
+
+  font pango:adobe-source-code-pro 16
+  position top
+  tray_output none
+  workspace_buttons no
+  status_command i3blocks
+}
+
 exec /usr/bin/picom --experimental-backends
 exec feh --bg-fill ./wallpaper.png
 
