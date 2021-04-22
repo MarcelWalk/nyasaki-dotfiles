@@ -1,9 +1,24 @@
-full_text=" | "
+full_text=""
 align=center
 separator=false
-separator_block_width=7
+separator_block_width=10
+
+[cpu]
+background=#82aaff
+min_width=80
+command=~/.config/i3blocks/cpu
+interval=1
+
+[mem]
+background=#82aaff
+min_width=150
+command=~/.config/i3blocks/memory
+interval=1
 
 [time]
-min_width=80
-command=date +"%H:%M"
+background=#82aaff
+min_width=240
+command=./clock
 interval=1
+
+[seperator]
