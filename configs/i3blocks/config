@@ -1,0 +1,9 @@
+full_text=" | "
+align=center
+separator=false
+separator_block_width=7
+
+[time]
+min_width=80
+command=date +"%H:%M"
+interval=1

@@ -176,10 +176,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 exec /usr/bin/picom --experimental-backends
-exec feh --bg-fill ./wallpaper.jpg
-exec ~/.config/polybar/launch.sh
+exec feh --bg-fill ./wallpaper.png
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
 
 gaps inner 10
 gaps outer 0
